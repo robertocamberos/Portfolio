@@ -31,56 +31,90 @@
 
     <!-- Hotjar Tracking Code for https://magnificent-klepon-7495fa.netlify.app/index.html -->
     <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:3507978,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3507978, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
-        <!-- Start of Async Drift Code -->
+    <!-- Start of Async Drift Code -->
     <script>
-      "use strict";
-      
-      !function() {
-        var t = window.driftt = window.drift = window.driftt || [];
+      'use strict';
+
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
         if (!t.init) {
-          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-          t.factory = function(e) {
-            return function() {
-              var n = Array.prototype.slice.call(arguments);
-              return n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function(e) {
-            t[e] = t.factory(e);
-          }), t.load = function(t) {
-            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-            var i = document.getElementsByTagName("script")[0];
-            i.parentNode.insertBefore(o, i);
-          };
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error('Drift snippet included twice.')
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              'identify',
+              'config',
+              'track',
+              'reset',
+              'debug',
+              'show',
+              'ping',
+              'page',
+              'hide',
+              'off',
+              'on',
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement('script');
+              (o.type = 'text/javascript'),
+                (o.async = !0),
+                (o.crossorigin = 'anonymous'),
+                (o.src =
+                  'https://js.driftt.com/include/' + n + '/' + t + '.js');
+              var i = document.getElementsByTagName('script')[0];
+              i.parentNode.insertBefore(o, i);
+            });
         }
-      }();
+      })();
       drift.SNIPPET_VERSION = '0.3.1';
       drift.load('zpyy84bphew7');
-      </script>
-      <!-- End of Async Drift Code -->
+    </script>
+    <!-- End of Async Drift Code -->
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MPX0LS06JW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-            <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPX0LS06JW"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-MPX0LS06JW');
-      </script>
-
+      gtag('config', 'G-MPX0LS06JW');
+    </script>
   </head>
 
   <body>
@@ -168,7 +202,6 @@
                     <li><a href="404.html">404</a></li>
                   </ul>
                 </li>
-
 
                 <li class="has-dropdown">
                   <!-- <a href="#">Blocks</a> -->
@@ -337,11 +370,16 @@
                 >
                 <h1 class="title">Hello, I’m <span>Roberto.</span></h1>
                 <p class="description">
-                  My expertise lies in content editing and HTML email development.
+                  My expertise lies in content editing and HTML email
+                  development.
                 </p>
                 <div class="slide-btn">
                   <!-- <a class="btn-default" href="">Download CV</a> -->
-                  <a href="Roberto_Camberos_-_Content_Editor.pdf" target="_blank" class="btn-default">
+                  <a
+                    href="Roberto_Camberos_-_Content_Editor.pdf"
+                    target="_blank"
+                    class="btn-default"
+                  >
                     <span>View Resume</span>
                   </a>
                 </div>
@@ -373,29 +411,27 @@
                   <span class="subtitle">Read About Me</span>
                   <h2 class="title">My About</h2>
                   <p class="description">
-                    An adaptable, tech-savvy content editor and front-end
-                    developer with a keen eye for detail. Experienced in
-                    crafting engaging content, I also excel at developing
-                    responsive HTML emails and interactive websites. But I don't
-                    just live in the digital world; I'm also a passionate
-                    musician. I believe my symphony of skills is akin to playing
-                    in an orchestra - where individual notes converge to create
-                    a harmonious tune, my abilities in content editing, coding,
-                    and design blend seamlessly to produce impactful digital
-                    experiences. My knack for collaboration, commitment to
-                    lifelong learning, and sense of humor add a unique note to
-                    every team I join. Whether I'm refining a piece of content,
-                    perfecting a code, or playing a guitar solo, my approach is
-                    always the same - innovation, precision, and a dash of fun.
+                    As a dedicated Email Marketing Specialist, I bring a blend
+                    of creativity and technical expertise to construct
+                    compelling, high-converting emails. Skilled in MailChimp,
+                    Litmus, HTML, and CSS, I specialize in creating diverse
+                    email campaigns that drive customer engagement and loyalty.
+                    I have a solid grounding in SEO, Shopify, Content Management
+                    Systems, Adobe XD, Data Analysis, WordPress, Google
+                    Analytics, Social Media Marketing, and Project Management.
+                    Outside the digital realm, I am a passionate musician, an
+                    element that brings a unique perspective to my work. Whether
+                    fine-tuning an email campaign, crafting code, or playing a
+                    guitar solo, I approach every task with innovation,
+                    precision, and a dash of fun. My skills harmonize to produce
+                    impactful email campaigns, promoting brands in dynamic ways.
                   </p>
                 </div>
                 <div class="row">
                   <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="about-us-list">
                       <h5 class="title">Educational Skill</h5>
-                      <p>
-                        Bacehlor of Arts in Data Science from UC Berkeley
-                      </p>
+                      <p>Bacehlor of Arts in Data Science from UC Berkeley</p>
                     </div>
                   </div>
                   <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -467,37 +503,81 @@
                 />
               </li>
               <li class="wordpress-logo">
-                <img src="assets/images/brand/wordpress-logo.png" alt="Logo Images" class="wordpress-logo"/>
+                <img
+                  src="assets/images/brand/wordpress-logo.png"
+                  alt="Logo Images"
+                  class="wordpress-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/hubspot-logo.png" alt="Logo Images" class="hubspot-logo"/>
+                <img
+                  src="assets/images/brand/hubspot-logo.png"
+                  alt="Logo Images"
+                  class="hubspot-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/squarespace-logo.png" alt="Logo Images" class="squarespace-logo"/>
+                <img
+                  src="assets/images/brand/squarespace-logo.png"
+                  alt="Logo Images"
+                  class="squarespace-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/wix-logo.png" alt="Logo Images" class="wix-logo"/>
+                <img
+                  src="assets/images/brand/wix-logo.png"
+                  alt="Logo Images"
+                  class="wix-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/contentful-logo.png" alt="Logo Images" class="contentful-logo"/>
+                <img
+                  src="assets/images/brand/contentful-logo.png"
+                  alt="Logo Images"
+                  class="contentful-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/html-image.png" alt="Logo Images" class="html-logo"/>
+                <img
+                  src="assets/images/brand/html-image.png"
+                  alt="Logo Images"
+                  class="html-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/css-image.png" alt="Logo Images" class="css-logo"/>
+                <img
+                  src="assets/images/brand/css-image.png"
+                  alt="Logo Images"
+                  class="css-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/responsive-design-image.png" alt="Logo Images" class="responsive-design-logo"/>
+                <img
+                  src="assets/images/brand/responsive-design-image.png"
+                  alt="Logo Images"
+                  class="responsive-design-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/photoshop-image.png" alt="Logo Images" class="photoshop-logo"/>
+                <img
+                  src="assets/images/brand/photoshop-image.png"
+                  alt="Logo Images"
+                  class="photoshop-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/litmus-image.png" alt="Logo Images" class="litmus-logo"/>
+                <img
+                  src="assets/images/brand/litmus-image.png"
+                  alt="Logo Images"
+                  class="litmus-logo"
+                />
               </li>
               <li>
-                <img src="assets/images/brand/mailchimp-image.png" alt="Logo Images" class="mailchimp-logo"/>
+                <img
+                  src="assets/images/brand/mailchimp-image.png"
+                  alt="Logo Images"
+                  class="mailchimp-logo"
+                />
               </li>
             </ul>
           </div>
