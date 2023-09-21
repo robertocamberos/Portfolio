@@ -18467,3 +18467,18 @@ a.purchase-btn:hover {
 }
 
 
+
+
+.skill-content img, 
+.skill-content span {
+  display: block;
+  text-align: center; 
+}
+
+.skill-content span {
+  font-weight: bold;
+}
+
+.brand-style-2 div {
+  padding: 50px; 
+}
