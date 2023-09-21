@@ -18482,3 +18482,15 @@ a.purchase-btn:hover {
 .brand-style-2 div {
   padding: 50px; 
 }
+
+.theme-gradient.font-500 {
+  
+  color: red; 
+  font-weight: bold;
+  font-size: 30px !important;
+}
+
+.theme-gradient {
+  background: none !important;
+  -webkit-text-fill-color: red !important;
+}
